@@ -18,9 +18,7 @@ class ItemProvider extends Component
     minPrice:0,
     maxPrice:0,
     minSize:0,
-    maxSize:0,
-    breakfast:false,
-    pets:false
+    maxSize:0
   };
 
   //getData function
@@ -91,9 +89,7 @@ class ItemProvider extends Component
      capacity,
      price,
      minSize,
-     maxSize,
-     breakfast,
-     pets
+     maxSize
    } = this.state
    //all the items
    let tempItems = [...item];
@@ -124,17 +120,7 @@ class ItemProvider extends Component
 
    tempItems = tempItems.filter(items => items.size >= minSize && items.size <= maxSize);
 
-   //filter by checkboxes
-
-   if(breakfast)
-   {
-     tempItems = tempItems.filter(items => items.breakfast === true);
-   }
-
-   if(pets)
-   {
-     tempItems = tempItems.filter(items => items.pets === true);
-   }
+   
 
    //change state
    this.setState({
