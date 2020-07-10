@@ -1,7 +1,6 @@
 import React,{ Component } from 'react';
 import Title from '../components/Title';
 import {FaFacebook,FaFacebookMessenger,FaGooglePlus,FaInstagram,FaTwitter} from 'react-icons/fa';
-import { Card,Button,Container } from 'react-bootstrap';
 import img from '../images/mustafa-ansari.jpg';
 import '../style.css';
 import {Link} from 'react-router-dom';
@@ -61,7 +60,7 @@ return(
       <hr className="w-25 mx-auto pt-5" />
       <div className="column">
         <div className="card h-100">
-          <img src={img} width="40px" height="40px" className="imgr"></img>
+          <img src={img} width="40px" height="40px" className="imgr" alt=" "></img>
           <div className="container">
             <h2>CDE XYZ</h2>
             <hr w-25 mx-auto pt-1 />
@@ -81,7 +80,7 @@ return(
 
       <div className="column">
         <div className="card h-100">
-          <img src={img} width="40px" height="40px" className="imgr"></img>
+          <img src={img} width="40px" height="40px" className="imgr" alt=" "></img>
           <div className="container">
             <h2>ABC XYZ</h2>
             <hr w-25 mx-auto pt-1 />
