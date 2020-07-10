@@ -19,9 +19,7 @@ export default function ItemsFilter({item}){
     minPrice,
     maxPrice,
     minSize,
-    maxSize,
-    breakfast,
-    pets
+    maxSize
   } = context;
 
   //get unique types
@@ -71,18 +69,6 @@ export default function ItemsFilter({item}){
               </div>
             </div>
           {/*end size*/}
-          {/*extras*/}
-            <div className="form-group">
-              <div className="single-extra">
-                <input type="checkbox" name="breakfast" id="breakfast" checked={breakfast} onChange={handleChange} />
-                <label htmlFor="breakfast">BreakFast</label>
-              </div>
-              <div className="single-extra">
-                <input type="checkbox" name="pets" id="pets" checked={pets} onChange={handleChange} />
-                <label htmlFor="pets">Pets</label>
-              </div>
-            </div>
-          {/*end extras*/}
         </form>
     </section>
   );
