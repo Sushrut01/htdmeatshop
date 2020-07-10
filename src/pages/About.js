@@ -1,4 +1,4 @@
-import React,{ Component } from 'react';
+import React from 'react';
 import Title from '../components/Title';
 import {FaFacebook,FaFacebookMessenger,FaGooglePlus,FaInstagram,FaTwitter} from 'react-icons/fa';
 import img from '../images/mustafa-ansari.jpg';
