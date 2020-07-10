@@ -1,6 +1,5 @@
 import React from 'react';
 import {FaFacebook,FaFacebookMessenger,FaGooglePlus,FaInstagram,FaTwitter} from 'react-icons/fa';
-import { Card,Button,Container } from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 import '../hmt.css';
 import '../style.css';
@@ -16,7 +15,7 @@ const Contact = () => {
                   <h1><pre>MESSAGE US</pre></h1>
                   <p>Please share your valuable message to us through this form.</p>
 
-                  <form id="contact-form" method="post" role="form">
+                  <form id="contact-form" method="post">
                     <div className="messages"></div>
                     <div className="controls">
                       <div className="row">
