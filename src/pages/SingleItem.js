@@ -37,7 +37,6 @@ export default class SingleItem extends Component
     }
     const {name,
       description,
-      capacity,
       size,
       price,
       extra,
