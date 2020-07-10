@@ -78,7 +78,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 
-This project is deployed on netlify, please have a look over the given link:   https://htdmeatshop-using-react.netlify.app/
+This project is deployed on netlify, please have a look over the given link:   https://htd-meat-shop.netlify.app/
 
 
 Contentful is used for performing CRUD operation in this project
