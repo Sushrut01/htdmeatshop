@@ -41,8 +41,6 @@ export default class SingleItem extends Component
       size,
       price,
       extra,
-      breakfast,
-      pets,
       images} = item;
       const [mainImg,...defaultImg] = images;
     return (
@@ -68,11 +66,9 @@ export default class SingleItem extends Component
           <article className="info">
             <h3>Info</h3>
             <h6>Price : Rs.{price}</h6>
-            <h6>Size : {size}SQFT</h6>
-            <h6>Max Capacity :{" "}
-            {capacity > 1 ? `${capacity} people`:`${capacity} person`}</h6>
-            <h6>{pets?"pets allowed":"no pets allowed"}</h6>
-            <h6>{breakfast && "free breakfast included"}</h6>
+            <h6>Size : {size}gms per piece</h6>
+            
+            
           </article>
         </div>
       </section>
