@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import defaultBcg from '../images/room-1.jpeg';
-import Hero from '../components/Hero';
+//import Hero from '../components/Hero';
 import Banner from '../components/Banner';
 import {Link} from 'react-router-dom';
 import {ItemContext} from '../context';
@@ -66,9 +66,8 @@ export default class SingleItem extends Component
           <article className="info">
             <h3>Info</h3>
             <h6>Price : Rs.{price}</h6>
-            <h6>Size : {size}gms per piece</h6>
-            
-            
+            <h6>Size : {size}grams per piece</h6>
+
           </article>
         </div>
       </section>
